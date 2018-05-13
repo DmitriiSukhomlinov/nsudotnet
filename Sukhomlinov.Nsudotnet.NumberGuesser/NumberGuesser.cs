@@ -55,7 +55,7 @@ namespace Sukhomlinov.Nsudotnet.NumberGuesser {
                 }
                 attemptsCount++;
                 if (attemptsCount % 4 == 0 & !numberWasGuessed) {
-                    Console.WriteLine(String.Format(_sweapWords[new Random().Next(0, 5)], name));
+                    Console.WriteLine(String.Format(_sweapWords[new Random().Next(0, 4)], name));
                 }
 
             }
